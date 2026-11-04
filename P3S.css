@@ -1,5 +1,18 @@
+@media screen and (max-width:600px){
+    body{
+        font-size: 14px;
+    }
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 body{
      margin: 0;
+     width: 100%;
     background: linear-gradient(
         135deg,
         #f0c185,
@@ -60,8 +73,7 @@ body{
 }
 
 .Aj{
-    margin: 2em;
-    width: 35em;
-    height: 30em;
+    max-width: 100%;
+    height: auto;
 
 }
