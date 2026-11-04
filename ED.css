@@ -106,9 +106,8 @@ body{
 
 
 .E{
-    margin: 2em;
-    width: 20em;
-    height: 25em;
+   max-width: 100%;
+    height: auto;
     
     
 }
