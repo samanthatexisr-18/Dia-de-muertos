@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    background: linear-gradient(
+        135deg,
+        #32123f,
+        #4a1e4e,
+        #1d1028,
+        #f3c465,
+        #e77a24,
+        #d846a7
+    );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    75% { background-position: 100% 100%; }
+    100% { background-position: 0% 50%; }
+} 
+.W{
+    background: linear-gradient(to top, purple,orange);
+    
+    height: 10em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Te{
+    text-shadow: 0 4px 15px rgba(blue, rgb(208, 208, 244), rgb(199, 199, 214), alpha);
+}
+
+.boton{
+    background-color: beige;
+    padding: 2px;
+    border-radius: 10px;
+    width: 10em;
+    height: 5em;
+    position: absolute;
+    top: 6em;
+    right: 49em;
+
+}
+
+.X{
+    display: flex;
+    background-color: purple;
+    margin: 0 auto 1rem;
+    padding: 2rem;
+    max-width: 40rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.B{
+    background-color: beige;
+    padding: 1px;
+    border-radius: 10px;
+    width: 10em;
+    height: 5em;
+    position: absolute;
+    top: 6em;
+    right: 27em;
+}
+ 
+.C{
+    background-color: beige;
+    padding: 12px 22px;
+    border-radius: 10px;
+    width: 10em;
+    height: 5em;
+    position: absolute;
+    top: 6em;
+    right: 38em;
+}
+
+.D{
+    background-color: beige;
+    padding: 12px 22px;
+    border-radius: 10px;
+    width: 10em;
+    height: 5em;
+    position: absolute;
+    top: 6em;
+    right: 60em;
+
+}
+
+
+.E{
+    margin: 2em;
+    width: 20em;
+    height: 25em;
+    
+    
+}
+
+
+.Redes{
+    background: linear-gradient(to top, purple,orange);
+    height: auto;
+    padding: 1.5em;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BR{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 2em;
+    margin: 1em;
+}
+.BR1{
+    display: inline-block;
+    background-color: rgb(222, 122, 139);
+    color: white;
+    padding: 1em 2em;
+    border-radius: 2em;
+    margin: 1em;
+}
+.BR2{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 2em;
+    margin: 1em;
+}
+
+.TXT{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Botones{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/* esto hara una animacion para toda la pagina  body {
+    margin: 0;
+    background: linear-gradient(
+        135deg,
+        #32123f,
+        #4a1e4e,
+        #1d1028,
+        #f3c465,
+        #e77a24,
+        #b94d35
+    );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    75% { background-position: 100% 100%; }
+    100% { background-position: 0% 50%; }
+} */
